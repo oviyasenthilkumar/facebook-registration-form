@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width:80%;
+	margin:auto;
+	padding-top:20px;
+}
+.register-form{
+	width:30%;
+	margin:auto;
+	border:1px solid #cacaca;
+	box-shadow:0 0 5px;
+	padding:15px 25px;
+	text-align:center;
+}
+.register-form h1{
+	padding:10px 0;
+	color:#9d9d9d;
+}
+.register-form-input i{
+	border:1px solid #0460aa;
+	padding:10px 10px 12px;
+	background-color:#0460aa;
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+}
+label{
+	padding:0 15px 0 10px ;
+}
+
+#email-box{
+	padding:10px 0;
+}
+#name-box{
+	padding:10px 0;
+}
+#psw-box{
+	padding:10px 0;
+}
+
+.register-form-footer{
+	display:flex;
+	text-align:left;
+}
+input{
+	padding:10px;
+	border-radius: 0px;
+    border: 1px solid #cacaca;;
+}
+.register-form-input{
+	padding:15px 0;
+}
+.register-form-footer-col{
+	width:50%;
+}
+.register-form-footer p, .register-form-footer a{
+	font-size:14px;
+}
+.register-form-footer-col button{
+	 width:90%;
+	 padding:10px;
+	 font-size:15px;
+	 background-color:#0460aa;
+	 color:#fff;
+	 border:none;
+	 border-radius:2px;
+}
+input[type="radio"]{
+	appearance: none;
+   border: 1px solid #0460aa ;
+   border-radius:50%;
+   width: 20px;
+   height: 20px;
+   background-color:#0460aa;
+   position:relative;
+}
+input[type="radio"]:checked {
+  appearance: none;
+}
+input[type="radio"]:checked::before{
+  position: absolute;
+  top:1px;
+  right:1px;
+  
+  color: #fff ;
+  content: "\00A0\2713\00A0" ;
+  font-weight: bolder;
+  font-size: 14px;
+}
